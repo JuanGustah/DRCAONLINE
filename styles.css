@@ -44,7 +44,7 @@ body{
     box-shadow: 0 0 16px #3d0c5034;
 }
 .content .explication{
-    width: 25rem;
+    max-width: 22rem;
     display: flex;
     justify-content: center;
     margin: auto 0;
