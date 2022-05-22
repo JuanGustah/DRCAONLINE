@@ -3,7 +3,7 @@ window.onload=async function(){
 
     const timeoutId = setTimeout(() => controller.abort(), 5000);
 
-    await fetch('http://www.google.com.br',{
+    await fetch('https://www.google.com.br',{
         method:'GET',
         signal:controller.signal
     }).then(()=>{
